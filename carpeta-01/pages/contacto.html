@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UAz-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- linkeo CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Colo-Contacto</title>
+</head>
+<body>
+
+    <!-- encabezado de contacto -->
+   <header>
+        <ul class="ulFlex">
+            <li class="buscar"> Buscar </li>
+            <li class="crearCuenta"> Crear cuenta </li>
+            <li class="iniciarSesion"> Iniciar sesión </li>
+        </ul>
+        
+        <!-- vamos a crear un menu -->
+        <!-- ademas enlazamos todos los html -->
+        <nav>
+            <ul class="navFlex">
+                <!-- LOGO -->
+                <img class="cabezaVaca" src="../img/Picsart_22-08-02_01-08-03-065.jpg" alt="cabeza de vaca negra y blanca">
+                <li> 
+                    <a href="../index.html"> Home </a> 
+                </li>
+                <li> 
+                    <a href="productos.html"> Productos </a>
+                </li>
+                <li> 
+                    <a href="quienes somos.html"> Quiénes somos </a> 
+                </li>
+                <li> 
+                    <a href="contacto.html"> Contacto </a> 
+                </li>
+                <li> 
+                    <a href="carrito.html"> Carrito </a> 
+                </li>
+                <li> 
+                    <a href="#pie-de-pagina"> Ir al footer </a> 
+                </li>
+            </ul>
+            <!-- h1 de contacto en grande -->
+            <h1 class="h1EnGrande"> contacto </h1>
+        </nav>
+    </header>
+
+    <!-- ahora vamos a trabajar el contenido principal de mi html contacto -->
+    <!-- y vamos a comenzar con la imagen del logo de la carniceria, posteriormente va a ir otra imagen de fondo -->
+    <main class="mainContactoFlex">
+        
+        <!-- ahora voy a poner los horarios de la carniceria que irian dentro de la imagen que agregue anteriormente -->
+        <h3> HORARIOS DE ATENCIÓN </h3>
+        <h4> DE 08:00 HS A 13:00 HS Y </h4>
+        <h4> DE 16:30 HS A 20:30 HS </h4>
+    </main>
+
+    <!-- ahora vamos a hacer el formulario para que el usuario ponga sus datos de contacto -->
+    <form class="formRegister">
+        <fieldset class="fieldsetStyle">
+            <legend> Formulario de contacto </legend>
+            
+            <!-- este es el formulario para el nombre -->
+            <div>
+                <input class="controls" type="text" name="nombre" id="nombre" placeholder="Completa el nombre" required>
+            </div>
+            
+            <!-- este es el formulario para el email -->
+            <div>
+                <input class="controls" type="email" name="email" id="email" placeholder="Completa tu email" required>
+            </div>
+
+            <!-- este es el formulario para el telefono -->
+            <div>
+                <input class="controls" type="number" name="number" id="number" placeholder="Completa tu teléfono" required>
+            </div>
+
+            <!-- este es el formulario para que deje un mensaje -->
+            <div>
+                <input class="inputConsultas" type="text" name="text" id="text" placeholder="Consultas/comentarios">
+            </div>
+
+            <!-- ahora va el boton para que envie los datos -->
+            <!-- y tambien va el boton por si quiere borrar todo de manera mas rapida -->
+            <div>
+                <input class="botons" type="submit" value="enviar">
+            </div>
+        </fieldset>
+    </form>
+
+    <!-- ahora voy a hacer el footer, o el pie de pagina -->
+    <footer id="pie-de-pagina">
+        <h2> Todos los derechos reservados </h2>
+
+        <!-- ahora voy a agregar los datos de contacto -->
+      <div class="h5Flex">
+        <h5 class="nuestraSucursal"> TELÉFONO: 464-1881 </h5>
+        <h5 class="nuestraSucursal"> EMAIL: COLOCARNICERIA@GMAIL.COM </h5>
+      </div>
+
+        <!-- ahora voy a agregar las redes sociales -->
+      <div class="h5Flex2">
+        <h5 class="redesSociales"> INSTAGRAM: COLO_CARNICERIA </h5>
+        <h5 class="redesSociales"> FACEBOOK: COLO CARNICERIA </h5>
+      </div>
+    </footer>
+    
+</body>
+</html>
